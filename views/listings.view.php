@@ -1,8 +1,8 @@
 <?php
-require loadPartial("head");
-require loadPartial("navbar");
-require loadPartial("search");
-require loadPartial("topbanner");
+loadPartial("head");
+loadPartial("navbar");
+loadPartial("search");
+loadPartial("topbanner");
 
 
 ?>
@@ -178,5 +178,5 @@ require loadPartial("topbanner");
 
 
 <?php
-require loadPartial("bottombanner");
-require loadPartial("footer");
+loadPartial("bottombanner");
+loadPartial("footer");

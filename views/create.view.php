@@ -1,7 +1,8 @@
 <?php
-require loadPartial("head");
-require loadPartial("navbar");
-require loadPartial("topbanner");
+loadPartial("head");
+loadPartial("navbar");
+loadPartial("search");
+loadPartial("topbanner");
 ?>
 <!-- Post a Job Form Box -->
 <section class="flex justify-center items-center mt-20">
@@ -108,5 +109,5 @@ require loadPartial("topbanner");
 </section>
 
 <?php
-require loadPartial("bottombanner");
-require loadPartial("footer");
+loadPartial("bottombanner");
+loadPartial("footer");
